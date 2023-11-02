@@ -5,12 +5,14 @@ import { SharedComponent } from './shared.component';
 import { HomeComponent } from './home/home.component';
 import { ButtonModule } from 'primeng/button';
 import { FieldsetModule } from 'primeng/fieldset';
+import { RegsiterComponent } from './regsiter/regsiter.component';
 
 
 @NgModule({
   declarations: [
     SharedComponent,
-    HomeComponent
+    HomeComponent,
+    RegsiterComponent
   ],
   imports: [
     CommonModule,

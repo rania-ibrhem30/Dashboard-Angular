@@ -1,0 +1,33 @@
+.data{
+    .container{
+        .row{
+            .col-12{
+                border: 2px solid wheat;
+                .box{
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    
+                    
+                }
+                form{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 15px;
+                    padding: 10px;
+                    input{
+                        outline: none;
+                        background-color: transparent;
+                        border: 2px solid wheat;
+
+
+                    }
+                  
+                }
+              
+            }
+        }
+    }
+}
