@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { SharedRoutingModule } from './shared-routing.module';
 import { SharedComponent } from './shared.component';
 import { HomeComponent } from './home/home.component';
+import { ButtonModule } from 'primeng/button';
+import { FieldsetModule } from 'primeng/fieldset';
 
 
 @NgModule({
@@ -12,7 +14,9 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     CommonModule,
-    SharedRoutingModule
+    SharedRoutingModule,
+    ButtonModule,
+    FieldsetModule
   ],
   exports:[
     HomeComponent
