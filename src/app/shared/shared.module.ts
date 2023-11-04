@@ -6,13 +6,15 @@ import { HomeComponent } from './home/home.component';
 import { ButtonModule } from 'primeng/button';
 import { FieldsetModule } from 'primeng/fieldset';
 import { RegsiterComponent } from './regsiter/regsiter.component';
+import { SubjectsComponent } from './subjects/subjects.component';
 
 
 @NgModule({
   declarations: [
     SharedComponent,
     HomeComponent,
-    RegsiterComponent
+    RegsiterComponent,
+    SubjectsComponent
   ],
   imports: [
     CommonModule,
