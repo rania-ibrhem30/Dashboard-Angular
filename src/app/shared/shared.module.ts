@@ -7,6 +7,7 @@ import { ButtonModule } from 'primeng/button';
 import { FieldsetModule } from 'primeng/fieldset';
 import { RegsiterComponent } from './regsiter/regsiter.component';
 import { SubjectsComponent } from './subjects/subjects.component';
+import { MenuModule } from 'primeng/menu';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { SubjectsComponent } from './subjects/subjects.component';
     CommonModule,
     SharedRoutingModule,
     ButtonModule,
-    FieldsetModule
+    FieldsetModule,
+    MenuModule
   ],
   exports:[
     HomeComponent
